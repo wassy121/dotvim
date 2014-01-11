@@ -3,4 +3,4 @@
 	url = http://github.com/tpope/vim-fugitive.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = http://github.com/scrooloose/nerdtre.git
+	url = http://github.com/scrooloose/nerdtree.git
