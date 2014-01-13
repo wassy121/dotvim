@@ -4,8 +4,12 @@ syn on
 if has("autocmd")
   filetype plugin indent on
 endif
+if has("win32")
+  set guifont=Terminus:h11
+else
+  set guifont=Terminus\ 11
+endif
 set background=dark
-set guifont=Terminus\ 11
 let g:solarized_italic=0
 colorscheme solarized
 " Tabs are annoying
