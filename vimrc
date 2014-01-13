@@ -5,8 +5,10 @@ if has("autocmd")
   filetype plugin indent on
 endif
 set background=dark
-set guifont=Terminus:h11
+set guifont=Terminus\ 10
 let g:solarized_italic=0
+let g:solarized_termcolors=16
+set t_Co=16
 colorscheme solarized
 " Tabs are annoying
 set ts=2
@@ -24,7 +26,7 @@ map <leader>tp :tabprevious<cr>
 map <leader>tx :tabclose
 map <leader>te :tabedit <c-r>=expand("%:p:h")<cr>/
 map <leader>cd :cd %:p:h<cr>:pwd<cr>
-map <leader>f :NERDTreeToggle<cr>
+map <leader>f :NERDTreeTabsToggle<cr>
 " Make gvim look less ridiculous
 set guioptions-=e 
 set guioptions-=m " turn off menu bar

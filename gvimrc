@@ -24,7 +24,7 @@ map <leader>tp :tabprevious<cr>
 map <leader>tx :tabclose
 map <leader>te :tabedit <c-r>=expand("%:p:h")<cr>/
 map <leader>cd :cd %:p:h<cr>:pwd<cr>
-map <leader>f :NERDTreeToggle<cr>
+map <leader>f :NERDTreeTabsToggle<cr>
 " Make gvim look less ridiculous
 set guioptions-=e 
 set guioptions-=m " turn off menu bar
