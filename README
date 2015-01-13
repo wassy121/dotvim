@@ -1,0 +1,19 @@
+leader is , macros are:
+4 - p4 stuff
+  - 4e edit
+  - 4d diff
+  - 4L list changelists
+  perforce.vim
+
+f - nerdtree
+  - m to modify (add file/dir)
+
+b - buffergator
+  - B closes
+
+
+
+
+# changelog
+2015-01-13 17:36
+add README file
