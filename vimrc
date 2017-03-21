@@ -8,7 +8,7 @@ set background=dark
 set guifont=Terminus\ 10
 let g:solarized_italic=0
 let g:solarized_termcolors=16
-set t_Co=16
+set t_Co=256
 colorscheme solarized
 " Tabs are annoying
 set ts=2
@@ -48,6 +48,8 @@ set visualbell
 set t_vb=
 set tm=500
 
+set encoding=utf-8
+set fileencoding=utf-8
 
 " This is for $P4MERGE
 func! ToggleHscroll() 
